@@ -57,6 +57,7 @@ Methods mainly based on visual features, object detection, pose, spatial relatio
 | 2021 | CVPR | HOI Transformer | End-to-End Human Object Interaction Detection With HOI Transformer | [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Zou_End-to-End_Human_Object_Interaction_Detection_With_HOI_Transformer_CVPR_2021_paper.html)] [[Code](https://github.com/bbepoch/HoiTransformer)] |
 | 2021 | CVPR | QPIC | Query-Based Pairwise Human-Object Interaction Detection With Image-Wide Contextual Information | [[Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Tamura_QPIC_Query-Based_Pairwise_Human-Object_Interaction_Detection_With_Image-Wide_Contextual_Information_CVPR_2021_paper.html)] [[Code](https://github.com/hitachi-rd-cv/qpic)] |
 | 2021 | NeurIPS | CDN | Mining the Benefits of Two-stage and One-stage HOI Detection | [[Paper](https://papers.nips.cc/paper/2021/hash/8f1d43620bc6bb580df6e80b0dc05c48-Abstract.html)] [[Code](https://github.com/YueLiao/CDN)] |
+| 2022 | AAAI | PhraseHOI | Improving Human-Object Interaction Detection via Phrase Learning and Label Composition | [[Paper](https://cdn.aaai.org/ojs/20041/20041-13-24054-1-2-20220628.pdf)] |
 | 2022 | CVPR | CATN | Category-Aware Transformer Network for Better Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Dong_Category-Aware_Transformer_Network_for_Better_Human-Object_Interaction_Detection_CVPR_2022_paper.html)] |
 | 2022 | CVPR | DOQ | Distillation Using Oracle Queries for Transformer-Based Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Qu_Distillation_Using_Oracle_Queries_for_Transformer-Based_Human-Object_Interaction_Detection_CVPR_2022_paper.html)] |
 | 2022 | CVPR | DisTR | Human-Object Interaction Detection via Disentangled Transformer | [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Zhou_Human-Object_Interaction_Detection_via_Disentangled_Transformer_CVPR_2022_paper.html)] |
@@ -66,12 +67,17 @@ Methods mainly based on visual features, object detection, pose, spatial relatio
 | 2023 | CVPR | CQL | Category Query Learning for Human-Object Interaction Classification | [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Xie_Category_Query_Learning_for_Human-Object_Interaction_Classification_CVPR_2023_paper.html)] |
 | 2023 | CVPR | MUREN | Relational Context Learning for Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Kim_Relational_Context_Learning_for_Human-Object_Interaction_Detection_CVPR_2023_paper.html)] |
 | 2023 | ICCV | AGER | Agglomerative Transformer for Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Tu_Agglomerative_Transformer_for_Human-Object_Interaction_Detection_ICCV_2023_paper.html)] |
+| 2023 | NeurIPS | LogicHOI | Neural-Logic Human-Object Interaction Detection | [[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/42b7c2f6d320d1fe1afa899a6319d6d7-Abstract-Conference.html)] [[Code](https://github.com/weijianan1/LogicHOI)] |
+| 2024 | AAAI | DPADN | Dual-Prior Augmented Decoding Network for Long Tail Distribution in HOI Detection | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/27949)] |
 | 2024 | AAAI | SCTC | Exploring Self- and Cross-Triplet Correlations for Human-Object Interaction Detection | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28031)] |
+| 2024 | ACM MM | CEFA | A Plug-and-Play Method for Rare Human-Object Interactions Detection by Bridging Domain Gap | [[Paper](https://dl.acm.org/doi/10.1145/3664647.3680928)] |
 | 2024 | CVPR | DP-HOI | Disentangled Pre-training for Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Li_Disentangled_Pre-training_for_Human-Object_Interaction_Detection_CVPR_2024_paper.html)] [[Code](https://github.com/xingaoli/DP-HOI)] |
 | 2025 | AAAI | ContextHOI | Spatial Context Learning for Human-Object Interaction Detection | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32411)] |
+| 2025 | AAAI | HOIMamba | Efficient Mamba-based Disentangled Progressive Learning for HOI Detection | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32972)] |
 | 2025 | AAAI | InterProDa | Orchestrating the Symphony of Prompt Distribution Learning for Human-Object Interaction Detection | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32412)] |
 | 2025 | CVPR | HORP | Human-Object Relation Priors Guided HOI Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Geng_HORP_Human-Object_Relation_Priors_Guided_HOI_Detection_CVPR_2025_paper.html)] [[Code](https://github.com/namegp/HORP)] |
 | 2025 | ICCV | TSR | No More Sibling Rivalry: Debiasing Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Yang_No_More_Sibling_Rivalry_Debiasing_Human-Object_Interaction_Detection_ICCV_2025_paper.html)] |
+| 2025 | NeurIPS | GroupHOI | Learning Human-Object Interaction as Groups | [[Paper](https://openreview.net/forum?id=yoKpumjWXc)] [[Code](https://github.com/JiajunHong1/GroupHOI)] |
 
 #### Two-stage / Proposal-based
 
@@ -111,6 +117,8 @@ Methods that use CLIP, VLMs, LLMs, language supervision, prompt learning, open-v
 |:---:|:---:|:---:|---|:---:|
 | 2022 | CVPR | - | Learning Transferable Human-Object Interaction Detector With Natural Language Supervision | [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Learning_Transferable_Human-Object_Interaction_Detector_With_Natural_Language_Supervision_CVPR_2022_paper.html)] |
 | 2022 | CVPR | GEN-VLKT | Simplify Association and Enhance Interaction Understanding for HOI Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Liao_GEN-VLKT_Simplify_Association_and_Enhance_Interaction_Understanding_for_HOI_Detection_CVPR_2022_paper.html)] [[Code](https://github.com/YueLiao/gen-vlkt)] |
+| 2022 | NeurIPS | RLIP | Relational Language-Image Pre-training for Human-Object Interaction Detection | [[Paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/f37347375d8b54e3203e5d24aeb6c58c-Abstract-Conference.html)] [[Code](https://github.com/JacobYuan7/RLIP)] |
+| 2023 | AAAI | EoID | End-to-End Zero-Shot HOI Detection via Vision and Language Knowledge Distillation | [[Paper](https://dblp.org/rec/conf/aaai/WuGSLCS23.html)] [[Code](https://github.com/mrwu-mac/EoID)] |
 | 2023 | CVPR | OpenCat | Open-Category Human-Object Interaction Pre-Training via Language Modeling Framework | [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Zheng_Open-Category_Human-Object_Interaction_Pre-Training_via_Language_Modeling_Framework_CVPR_2023_paper.html)] |
 | 2023 | ICCV | RLIPv2 | Re-mine, Learn and Reason: Exploring the Cross-modal Semantic Correlations for Language-guided HOI Detection | [[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Cao_Re-mine_Learn_and_Reason_Exploring_the_Cross-modal_Semantic_Correlations_for_ICCV_2023_paper.html)] |
 | 2024 | CVPR | CMD-SE | Exploring the Potential of Large Foundation Models for Open-Vocabulary HOI Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Lei_Exploring_the_Potential_of_Large_Foundation_Models_for_Open-Vocabulary_HOI_CVPR_2024_paper.html)] |
@@ -123,14 +131,23 @@ Methods that use CLIP, VLMs, LLMs, language supervision, prompt learning, open-v
 
 | Year | Venue | Method | Paper | Links |
 |:---:|:---:|:---:|---|:---:|
+| 2022 | AAAI | OCN | Detecting Human-Object Interactions with Object-Guided Cross-Modal Calibrated Semantics | [[Paper](https://github.com/JacobYuan7/OCN-HOI-Benchmark)] [[Code](https://github.com/JacobYuan7/OCN-HOI-Benchmark)] |
 | 2023 | CVPR | HOICLIP | Efficient Knowledge Transfer for HOI Detection With Vision-Language Models | [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Ning_HOICLIP_Efficient_Knowledge_Transfer_for_HOI_Detection_With_Vision-Language_Models_CVPR_2023_paper.html)] |
 | 2023 | ICCV | ADA-CM | Efficient Adaptive Human-Object Interaction Detection with Concept-guided Memory | [[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Lei_Efficient_Adaptive_Human-Object_Interaction_Detection_with_Concept-guided_Memory_ICCV_2023_paper.html)] [[Code](https://github.com/ltttpku/ADA-CM)] |
 | 2023 | NeurIPS | CLIP4HOI | Towards Adapting CLIP for Practical Zero-Shot HOI Detection | [[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8fd5bc08e744fe0dfe798c61d1575a22-Abstract-Conference.html)] |
 | 2023 | NeurIPS | UniHOI | Detecting Any Human-Object Interaction Relationship: Universal HOI Detector with Spatial Prompt Learning on Foundation Models | [[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/02687e7b22abc64e651be8da74ec610e-Abstract-Conference.html)] |
 | 2024 | AAAI | DHD | Toward Open-Set Human Object Interaction Detection | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28422)] [[Code](https://github.com/mrwu-mac/DHD)] |
+| 2024 | ACM MM | CaM-LQ | Towards Open-vocabulary HOI Detection with Calibrated Vision-language Models and Locality-aware Queries | [[Paper](https://dl.acm.org/doi/10.1145/3664647.3681084)] |
+| 2024 | ACM MM | HOIGen | Unseen No More: Unlocking the Potential of CLIP for Generative Zero-shot HOI Detection | [[Paper](https://dl.acm.org/doi/10.1145/3664647.3680722)] [[Code](https://github.com/soberguo/HOIGen)] |
 | 2024 | CVPR | BA-HOI | Bilateral Adaptation for Human-Object Interaction Detection with Occlusion-Robustness | [[Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Bilateral_Adaptation_for_Human-Object_Interaction_Detection_with_Occlusion-Robustness_CVPR_2024_paper.html)] |
 | 2024 | CVPR | SICHOI | Discovering Syntactic Interaction Clues for Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Luo_Discovering_Syntactic_Interaction_Clues_for_Human-Object_Interaction_Detection_CVPR_2024_paper.html)] |
+| 2024 | ECCV | CMMP | Exploring Conditional Multi-Modal Prompts for Zero-shot HOI Detection | [[Paper](https://eccv.ecva.net/virtual/2024/poster/1509)] |
+| 2024 | NeurIPS | EZ-HOI | VLM Adaptation via Guided Prompt Learning for Zero-Shot HOI Detection | [[Paper](https://openreview.net/forum?id=R1Rrb2d5BH)] [[Code](https://github.com/ChelsieLei/EZ-HOI)] |
+| 2025 | ACM MM | DYSCO | Dynamic Scoring with Enhanced Semantics for Training-Free Human-Object Interaction Detection | [[Paper](https://dl.acm.org/doi/10.1145/3746027.3754770)] [[Code](https://github.com/francescotonini/dysco)] |
 | 2025 | CVPR | LAIN | Locality-Aware Zero-Shot Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Kim_Locality-Aware_Zero-Shot_Human-Object_Interaction_Detection_CVPR_2025_paper.html)] |
+| 2025 | ICCV | HOLa | Zero-Shot HOI Detection with Low-Rank Decomposed VLM Feature Adaptation | [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Lei_HOLa_Zero-Shot_HOI_Detection_with_Low-Rank_Decomposed_VLM_Feature_Adaptation_ICCV_2025_paper.html)] [[Code](https://github.com/ChelsieLei/HOLa)] |
+| 2025 | NeurIPS | VDRP | Visual Diversity and Region-aware Prompt Learning for Zero-shot HOI Detection | [[Paper](https://koasas.kaist.ac.kr/handle/10203/338932)] [[Code](https://github.com/mlvlab/VDRP)] |
+| 2026 | ICLR | DA-HOI | Zero-shot HOI Detection with MLLM-based Detector-agnostic Interaction Recognition | [[Paper](https://openreview.net/forum?id=oHWg8cs5No)] [[Code](https://github.com/SY-Xuan/DA-HOI)] |
 
 ### Diffusion Model based HOI Detection
 
@@ -138,6 +155,7 @@ Diffusion-based methods that directly target HOI detection. 3D HOI generation, a
 
 | Year | Venue | Method | Paper | Links |
 |:---:|:---:|:---:|---|:---:|
+| 2024 | NeurIPS | DiffusionHOI | Human-Object Interaction Detection Collaborated with Large Relation-driven Diffusion Models | [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/2a54def490213ee10631b991c5acc6b5-Abstract-Conference.html)] [[Code](https://github.com/0liliulei/DiffusionHOI)] |
 | 2025 | CVPR | HOI-IDiff | An Image-like Diffusion Method for Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Hui_An_Image-like_Diffusion_Method_for_Human-Object_Interaction_Detection_CVPR_2025_paper.html)] |
 | 2025 | ICCV | VRDiff | Visual Relation Diffusion for Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Cao_Visual_Relation_Diffusion_for_Human-Object_Interaction_Detection_ICCV_2025_paper.html)] |
 
