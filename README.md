@@ -1,32 +1,56 @@
-# Awesome Human-Object Interaction Detection
+<div id="top"></div>
+
+<div align="center">
+
+# 👥 Awesome Human-Object Interaction Detection
+
+**A curated collection of papers, codes, datasets, and resources for Human-Object Interaction (HOI) Detection.**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Papers](https://img.shields.io/badge/Papers-HOI%20Detection-blue)](#papers)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05-lightgrey)](#)
+![Papers](https://img.shields.io/badge/Papers-HOI%20Detection-2f80ed)
+![Topic](https://img.shields.io/badge/Topic-Human--Object%20Interaction-7b61ff)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05-lightgrey)
 
-A curated collection of papers, codes, datasets, and resources for **Human-Object Interaction (HOI) Detection**.
+<a href="#-datasets">Datasets</a> •
+<a href="#-papers">Papers</a> •
+<a href="#-vision-based-hoi-detection">Vision-based</a> •
+<a href="#-vision-language-model-based-hoi-detection">Vision-Language</a> •
+<a href="#-diffusion-model-based-hoi-detection">Diffusion</a> •
+<a href="#-contributing">Contributing</a>
+
+</div>
 
 HOI detection aims to localize humans and objects and recognize their interactions, usually represented as `<human, verb, object>` triplets.
 
-> Scope: this repository focuses on image/video HOI detection, zero-shot/open-vocabulary HOI detection, and diffusion-based HOI detection. 3D HOI generation, human-object motion generation, animation generation, reconstruction-only papers, and contact-only papers are not included unless they directly target HOI detection.
->
-> Note: the one-stage / two-stage split is a practical reading-oriented grouping. Some transformer or open-vocabulary methods may combine ideas from both families.
+> [!NOTE]
+> This repository focuses on image/video HOI detection, zero-shot/open-vocabulary HOI detection, and diffusion-based HOI detection. 3D HOI generation, human-object motion generation, animation generation, reconstruction-only papers, and contact-only papers are not included unless they directly target HOI detection.
 
-## Contents
+> [!TIP]
+> The one-stage / two-stage split is a practical reading-oriented grouping. Some transformer or open-vocabulary methods may combine ideas from both families.
 
-- [Datasets](#datasets)
-- [Papers](#papers)
-  - [Vision-based HOI Detection](#vision-based-hoi-detection)
-    - [One-stage / End-to-End](#one-stage--end-to-end)
-    - [Two-stage / Proposal-based](#two-stage--proposal-based)
-  - [Vision-Language Model based HOI Detection](#vision-language-model-based-hoi-detection)
-    - [One-stage / End-to-End](#one-stage--end-to-end-1)
-    - [Two-stage / Proposal-based](#two-stage--proposal-based-1)
-  - [Diffusion Model based HOI Detection](#diffusion-model-based-hoi-detection)
-- [Useful Resources](#useful-resources)
-- [Contributing](#contributing)
+## 🔎 At a Glance
 
-## Datasets
+| Track | Focus | Sections |
+|---|---|:---:|
+| 👁️ Vision-based HOI Detection | Visual features, object detection, pose, spatial relations, graph reasoning, and vision transformers | [One-stage](#-one-stage--end-to-end) · [Two-stage](#-two-stage--proposal-based) |
+| 🧠 Vision-Language Model based HOI Detection | CLIP, VLMs, LLMs, language supervision, prompt learning, and open-vocabulary learning | [One-stage](#-one-stage--end-to-end-1) · [Two-stage](#-two-stage--proposal-based-1) |
+| 🌊 Diffusion Model based HOI Detection | Diffusion models directly used for HOI detection | [Diffusion](#-diffusion-model-based-hoi-detection) |
+
+## 🧭 Contents
+
+- [📚 Datasets](#-datasets)
+- [📄 Papers](#-papers)
+  - [👁️ Vision-based HOI Detection](#-vision-based-hoi-detection)
+    - [🚀 One-stage / End-to-End](#-one-stage--end-to-end)
+    - [🧩 Two-stage / Proposal-based](#-two-stage--proposal-based)
+  - [🧠 Vision-Language Model based HOI Detection](#-vision-language-model-based-hoi-detection)
+    - [🚀 One-stage / End-to-End](#-one-stage--end-to-end-1)
+    - [🧩 Two-stage / Proposal-based](#-two-stage--proposal-based-1)
+  - [🌊 Diffusion Model based HOI Detection](#-diffusion-model-based-hoi-detection)
+- [🧰 Useful Resources](#-useful-resources)
+- [🤝 Contributing](#-contributing)
+
+## 📚 Datasets
 
 | Dataset | Year | Task | Scale | Links |
 |:---:|:---:|---|---|:---:|
@@ -38,13 +62,15 @@ HOI detection aims to localize humans and objects and recognize their interactio
 | VG-HOI | 2024 | Open-set HOI detection | 17K+ HOI relationships | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28422)] |
 | Magic-HOI / SynHOI | 2024 | Open-world HOI detection | Real and synthetic HOI data | [[Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Open-World_Human-Object_Interaction_Detection_via_Multi-modal_Prompts_CVPR_2024_paper.html)] |
 
-## Papers
+<p align="right"><a href="#top">Back to top ↑</a></p>
 
-### Vision-based HOI Detection
+## 📄 Papers
+
+### 👁️ Vision-based HOI Detection
 
 Methods mainly based on visual features, object detection, pose, spatial relations, graph reasoning, or vision transformers.
 
-#### One-stage / End-to-End
+#### 🚀 One-stage / End-to-End
 
 | Year | Venue | Method | Paper | Links |
 |:---:|:---:|:---:|---|:---:|
@@ -79,7 +105,7 @@ Methods mainly based on visual features, object detection, pose, spatial relatio
 | 2025 | ICCV | TSR | No More Sibling Rivalry: Debiasing Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Yang_No_More_Sibling_Rivalry_Debiasing_Human-Object_Interaction_Detection_ICCV_2025_paper.html)] |
 | 2025 | NeurIPS | GroupHOI | Learning Human-Object Interaction as Groups | [[Paper](https://openreview.net/forum?id=yoKpumjWXc)] [[Code](https://github.com/JiajunHong1/GroupHOI)] |
 
-#### Two-stage / Proposal-based
+#### 🧩 Two-stage / Proposal-based
 
 | Year | Venue | Method | Paper | Links |
 |:---:|:---:|:---:|---|:---:|
@@ -107,11 +133,13 @@ Methods mainly based on visual features, object detection, pose, spatial relatio
 | 2023 | ICCV | PViC | Exploring Predicate Visual Context in Detecting of Human-Object Interactions | [[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_Exploring_Predicate_Visual_Context_in_Detecting_of_Human-Object_Interactions_ICCV_2023_paper.html)] |
 | 2024 | CVPR | Hybrid Learning | Exploring Pose-Aware Human-Object Interaction via Hybrid Learning | [[Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Exploring_Pose-Aware_Human-Object_Interaction_via_Hybrid_Learning_CVPR_2024_paper.html)] |
 
-### Vision-Language Model based HOI Detection
+<p align="right"><a href="#top">Back to top ↑</a></p>
+
+### 🧠 Vision-Language Model based HOI Detection
 
 Methods that use CLIP, VLMs, LLMs, language supervision, prompt learning, open-vocabulary learning, or vision-language pre-training for HOI detection.
 
-#### One-stage / End-to-End
+#### 🚀 One-stage / End-to-End
 
 | Year | Venue | Method | Paper | Links |
 |:---:|:---:|:---:|---|:---:|
@@ -127,7 +155,7 @@ Methods that use CLIP, VLMs, LLMs, language supervision, prompt learning, open-v
 | 2025 | ICCV | BC-HOI | Bilateral Collaboration with Large Vision-Language Models for Open Vocabulary Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Hu_Bilateral_Collaboration_with_Large_Vision-Language_Models_for_Open_Vocabulary_Human-Object_ICCV_2025_paper.html)] |
 | 2025 | ICCV | INP-CC | Open-Vocabulary HOI Detection with Interaction-aware Prompt and Concept Calibration | [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Lei_Open-Vocabulary_HOI_Detection_with_Interaction-aware_Prompt_and_Concept_Calibration_ICCV_2025_paper.html)] [[Code](https://github.com/ltttpku/INP-CC)] |
 
-#### Two-stage / Proposal-based
+#### 🧩 Two-stage / Proposal-based
 
 | Year | Venue | Method | Paper | Links |
 |:---:|:---:|:---:|---|:---:|
@@ -149,7 +177,9 @@ Methods that use CLIP, VLMs, LLMs, language supervision, prompt learning, open-v
 | 2025 | NeurIPS | VDRP | Visual Diversity and Region-aware Prompt Learning for Zero-shot HOI Detection | [[Paper](https://koasas.kaist.ac.kr/handle/10203/338932)] [[Code](https://github.com/mlvlab/VDRP)] |
 | 2026 | ICLR | DA-HOI | Zero-shot HOI Detection with MLLM-based Detector-agnostic Interaction Recognition | [[Paper](https://openreview.net/forum?id=oHWg8cs5No)] [[Code](https://github.com/SY-Xuan/DA-HOI)] |
 
-### Diffusion Model based HOI Detection
+<p align="right"><a href="#top">Back to top ↑</a></p>
+
+### 🌊 Diffusion Model based HOI Detection
 
 Diffusion-based methods that directly target HOI detection. 3D HOI generation, animation generation, text-to-image interaction control, and reconstruction-only diffusion papers are intentionally excluded from this section.
 
@@ -159,14 +189,16 @@ Diffusion-based methods that directly target HOI detection. 3D HOI generation, a
 | 2025 | CVPR | HOI-IDiff | An Image-like Diffusion Method for Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Hui_An_Image-like_Diffusion_Method_for_Human-Object_Interaction_Detection_CVPR_2025_paper.html)] |
 | 2025 | ICCV | VRDiff | Visual Relation Diffusion for Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Cao_Visual_Relation_Diffusion_for_Human-Object_Interaction_Detection_ICCV_2025_paper.html)] |
 
-## Useful Resources
+<p align="right"><a href="#top">Back to top ↑</a></p>
+
+## 🧰 Useful Resources
 
 | Name | Description | Links |
 |---|---|:---:|
 | Papers with Code: HICO-DET | Benchmarks and papers on HICO-DET | [[Link](https://paperswithcode.com/dataset/hico-det)] |
 | HOI-CL | Compositional learning series for HOI detection | [[Project](https://zhihou7.github.io/HOI-CL/)] [[Code](https://github.com/zhihou7/HOI-CL)] |
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome. Please open an issue or pull request if you find missing papers, incorrect metadata, or broken links.
 
