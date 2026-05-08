@@ -14,7 +14,6 @@ HOI detection aims to localize humans and objects and recognize their interactio
 
 ## Contents
 
-- [Surveys](#surveys)
 - [Datasets](#datasets)
 - [Papers](#papers)
   - [Vision-based HOI Detection](#vision-based-hoi-detection)
@@ -26,13 +25,6 @@ HOI detection aims to localize humans and objects and recognize their interactio
   - [Diffusion Model based HOI Detection](#diffusion-model-based-hoi-detection)
 - [Useful Resources](#useful-resources)
 - [Contributing](#contributing)
-
-## Surveys
-
-| Year | Venue | Paper | Links |
-|:---:|:---:|---|:---:|
-| 2020 | ACM MM Workshop | Human-Object Interaction Detection: A Quick Survey and Examination of Methods | [[Paper](https://arxiv.org/abs/2009.00618)] [[Repo](https://github.com/SHI-Labs/Human-Object-Interaction-Detection)] |
-| 2023 | IVC | Human Object Interaction Detection: Design and Survey | [[Paper](https://www.sciencedirect.com/science/article/pii/S0262885622002463)] |
 
 ## Datasets
 
@@ -155,7 +147,6 @@ Diffusion-based methods that directly target HOI detection. 3D HOI generation, a
 |---|---|:---:|
 | Papers with Code: HICO-DET | Benchmarks and papers on HICO-DET | [[Link](https://paperswithcode.com/dataset/hico-det)] |
 | HOI-CL | Compositional learning series for HOI detection | [[Project](https://zhihou7.github.io/HOI-CL/)] [[Code](https://github.com/zhihou7/HOI-CL)] |
-| SHI-Labs HOI Survey | Survey-style repository with early HOI papers and datasets | [[Repo](https://github.com/SHI-Labs/Human-Object-Interaction-Detection)] |
 
 ## Contributing
 
