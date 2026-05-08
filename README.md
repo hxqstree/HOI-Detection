@@ -61,6 +61,7 @@ HOI detection aims to localize humans and objects and recognize their interactio
 | SWiG-HOI | 2022 | Large-vocabulary HOI detection | Large-vocabulary interactions | [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Learning_Transferable_Human-Object_Interaction_Detector_With_Natural_Language_Supervision_CVPR_2022_paper.html)] |
 | VG-HOI | 2024 | Open-set HOI detection | 17K+ HOI relationships | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28422)] |
 | Magic-HOI / SynHOI | 2024 | Open-world HOI detection | Real and synthetic HOI data | [[Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Open-World_Human-Object_Interaction_Detection_via_Multi-modal_Prompts_CVPR_2024_paper.html)] |
+| CrossHOI-Bench | 2026 | Unified HOI evaluation benchmark for VLMs and HOI-specific methods | Multiple-answer multiple-choice HOI evaluation | [[Paper](https://arxiv.org/abs/2508.18753)] [[Code](https://github.com/ChelsieLei/CrossHOI-Bench)] |
 
 <p align="right"><a href="#top">Back to top ↑</a></p>
 
@@ -154,6 +155,7 @@ Methods that use CLIP, VLMs, LLMs, language supervision, prompt learning, open-v
 | 2025 | CVPR | SGC-Net | Stratified Granular Comparison Network for Open-Vocabulary HOI Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Lin_SGC-Net_Stratified_Granular_Comparison_Network_for_Open-Vocabulary_HOI_Detection_CVPR_2025_paper.html)] [[Code](https://github.com/Phil0212/SGC-Net)] |
 | 2025 | ICCV | BC-HOI | Bilateral Collaboration with Large Vision-Language Models for Open Vocabulary Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Hu_Bilateral_Collaboration_with_Large_Vision-Language_Models_for_Open_Vocabulary_Human-Object_ICCV_2025_paper.html)] |
 | 2025 | ICCV | INP-CC | Open-Vocabulary HOI Detection with Interaction-aware Prompt and Concept Calibration | [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Lei_Open-Vocabulary_HOI_Detection_with_Interaction-aware_Prompt_and_Concept_Calibration_ICCV_2025_paper.html)] [[Code](https://github.com/ltttpku/INP-CC)] |
+| 2026 | AAAI | UniHOI | Unified Human-Object Interaction Understanding via Unified Token Space | [[Paper](https://arxiv.org/abs/2511.15046)] |
 
 #### 🧩 Two-stage / Proposal-based
 
@@ -174,6 +176,7 @@ Methods that use CLIP, VLMs, LLMs, language supervision, prompt learning, open-v
 | 2025 | ACM MM | DYSCO | Dynamic Scoring with Enhanced Semantics for Training-Free Human-Object Interaction Detection | [[Paper](https://dl.acm.org/doi/10.1145/3746027.3754770)] [[Code](https://github.com/francescotonini/dysco)] |
 | 2025 | CVPR | LAIN | Locality-Aware Zero-Shot Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Kim_Locality-Aware_Zero-Shot_Human-Object_Interaction_Detection_CVPR_2025_paper.html)] |
 | 2025 | ICCV | HOLa | Zero-Shot HOI Detection with Low-Rank Decomposed VLM Feature Adaptation | [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Lei_HOLa_Zero-Shot_HOI_Detection_with_Low-Rank_Decomposed_VLM_Feature_Adaptation_ICCV_2025_paper.html)] [[Code](https://github.com/ChelsieLei/HOLa)] |
+| 2025 | NeurIPS | InstructHOI | Context-Aware Instruction for Multi-Modal Reasoning in Human-Object Interaction Detection | [[Paper](https://openreview.net/forum?id=WjYvHSjXrP)] [[PDF](https://openreview.net/pdf/9256d13b1c0d87dee1265c615f5a083bea101d9c.pdf)] |
 | 2025 | NeurIPS | VDRP | Visual Diversity and Region-aware Prompt Learning for Zero-shot HOI Detection | [[Paper](https://koasas.kaist.ac.kr/handle/10203/338932)] [[Code](https://github.com/mlvlab/VDRP)] |
 | 2026 | ICLR | DA-HOI | Zero-shot HOI Detection with MLLM-based Detector-agnostic Interaction Recognition | [[Paper](https://openreview.net/forum?id=oHWg8cs5No)] [[Code](https://github.com/SY-Xuan/DA-HOI)] |
 
@@ -196,6 +199,7 @@ Diffusion-based methods that directly target HOI detection. 3D HOI generation, a
 | Name | Description | Links |
 |---|---|:---:|
 | Papers with Code: HICO-DET | Benchmarks and papers on HICO-DET | [[Link](https://paperswithcode.com/dataset/hico-det)] |
+| CrossHOI-Bench | Unified HOI evaluation benchmark for VLMs and HOI-specific methods | [[Paper](https://arxiv.org/abs/2508.18753)] [[Code](https://github.com/ChelsieLei/CrossHOI-Bench)] |
 | HOI-CL | Compositional learning series for HOI detection | [[Project](https://zhihou7.github.io/HOI-CL/)] [[Code](https://github.com/zhihou7/HOI-CL)] |
 
 ## 🤝 Contributing
