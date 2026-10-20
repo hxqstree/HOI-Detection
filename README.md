@@ -9,7 +9,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Papers](https://img.shields.io/badge/Papers-HOI%20Detection-2f80ed)
 ![Topic](https://img.shields.io/badge/Topic-Human--Object%20Interaction-7b61ff)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05-lightgrey)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--10-lightgrey)
 
 <a href="#-datasets">Datasets</a> •
 <a href="#-papers">Papers</a> •
@@ -156,6 +156,8 @@ Methods that use CLIP, VLMs, LLMs, language supervision, prompt learning, open-v
 | 2025 | ICCV | BC-HOI | Bilateral Collaboration with Large Vision-Language Models for Open Vocabulary Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Hu_Bilateral_Collaboration_with_Large_Vision-Language_Models_for_Open_Vocabulary_Human-Object_ICCV_2025_paper.html)] |
 | 2025 | ICCV | INP-CC | Open-Vocabulary HOI Detection with Interaction-aware Prompt and Concept Calibration | [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Lei_Open-Vocabulary_HOI_Detection_with_Interaction-aware_Prompt_and_Concept_Calibration_ICCV_2025_paper.html)] [[Code](https://github.com/ltttpku/INP-CC)] |
 | 2026 | AAAI | UniHOI | Unified Human-Object Interaction Understanding via Unified Token Space | [[Paper](https://arxiv.org/abs/2511.15046)] |
+| 2026 | CVPR | SL-HOI | Streamlined Open-Vocabulary Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Sun_Streamlined_Open-Vocabulary_Human-Object_Interaction_Detection_CVPR_2026_paper.html)] [[Code](https://github.com/MPI-Lab/SL-HOI)] |
+| 2026 | CVPR | SD-IF | Learning to Diversify and Focus: A Reinforcement Framework for Open-Vocabulary HOI Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Learning_to_Diversify_and_Focus_A_Reinforcement_Framework_for_Open-Vocabulary_CVPR_2026_paper.html)] |
 
 #### 🧩 Two-stage / Proposal-based
 
@@ -179,6 +181,7 @@ Methods that use CLIP, VLMs, LLMs, language supervision, prompt learning, open-v
 | 2025 | NeurIPS | InstructHOI | Context-Aware Instruction for Multi-Modal Reasoning in Human-Object Interaction Detection | [[Paper](https://openreview.net/forum?id=WjYvHSjXrP)] [[PDF](https://openreview.net/pdf/9256d13b1c0d87dee1265c615f5a083bea101d9c.pdf)] |
 | 2025 | NeurIPS | VDRP | Visual Diversity and Region-aware Prompt Learning for Zero-shot HOI Detection | [[Paper](https://koasas.kaist.ac.kr/handle/10203/338932)] [[Code](https://github.com/mlvlab/VDRP)] |
 | 2026 | ICLR | DA-HOI | Zero-shot HOI Detection with MLLM-based Detector-agnostic Interaction Recognition | [[Paper](https://openreview.net/forum?id=oHWg8cs5No)] [[Code](https://github.com/SY-Xuan/DA-HOI)] |
+| 2026 | CVPR | InCoM-Net | Mining Instance-Centric Vision-Language Contexts for Human-Object Interaction Detection | [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Seo_Mining_Instance-Centric_Vision-Language_Contexts_for_Human-Object_Interaction_Detection_CVPR_2026_paper.html)] [[Code](https://github.com/nowuss/InCoM-Net)] |
 
 <p align="right"><a href="#top">Back to top ↑</a></p>
 
