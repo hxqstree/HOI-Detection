@@ -62,7 +62,6 @@ HOI detection aims to localize humans and objects and recognize their interactio
 | VG-HOI | 2024 | Open-set HOI detection | 17K+ HOI relationships | [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28422)] |
 | Magic-HOI / SynHOI | 2024 | Open-world HOI detection | Real and synthetic HOI data | [[Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Open-World_Human-Object_Interaction_Detection_via_Multi-modal_Prompts_CVPR_2024_paper.html)] |
 | CrossHOI-Bench | 2026 | Unified HOI evaluation benchmark for VLMs and HOI-specific methods | Multiple-answer multiple-choice HOI evaluation | [[Paper](https://arxiv.org/abs/2508.18753)] [[Code](https://github.com/ChelsieLei/CrossHOI-Bench)] |
-| Diag-HOI | Diagnosing Human-Object Interaction Detectors (IJCV 2025): error diagnosis toolbox for HOI detection | [[Paper](https://link.springer.com/article/10.1007/s11263-025-02369-8)] [[Code](https://github.com/neu-vi/Diag-HOI)] |
 
 <p align="right"><a href="#top">Back to top ↑</a></p>
 
@@ -212,6 +211,7 @@ Diffusion-based methods that directly target HOI detection. 3D HOI generation, a
 |---|---|:---:|
 | Papers with Code: HICO-DET | Benchmarks and papers on HICO-DET | [[Link](https://paperswithcode.com/dataset/hico-det)] |
 | CrossHOI-Bench | Unified HOI evaluation benchmark for VLMs and HOI-specific methods | [[Paper](https://arxiv.org/abs/2508.18753)] [[Code](https://github.com/ChelsieLei/CrossHOI-Bench)] |
+| Diag-HOI | Diagnosing Human-Object Interaction Detectors (IJCV 2025): error diagnosis toolbox for HOI detection | [[Paper](https://link.springer.com/article/10.1007/s11263-025-02369-8)] [[Code](https://github.com/neu-vi/Diag-HOI)] |
 | HOI-CL | Compositional learning series for HOI detection | [[Project](https://zhihou7.github.io/HOI-CL/)] [[Code](https://github.com/zhihou7/HOI-CL)] |
 
 ## 🤝 Contributing
